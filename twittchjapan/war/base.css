@@ -1,0 +1,18 @@
+@include url('http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css');
+@include url('http://yui.yahooapis.com/3.5.0/build/cssbase/cssbase-min.css');
+@include url('http://yui.yahooapis.com/3.5.0/build/cssfonts/cssfonts-min.css');
+h2,ul{margin:0;}
+.list{float:left;width:49.5%;height:104px;border-bottom: solid 1px rgb(192,192,192);border-left: solid 1px rgb(192,192,192);}
+body {margin:0;padding:0;/*width:640px;*/}
+header,footer {text-align:center;height:70px;line-height: 70px;background-color: #E55260;color: white;font-size: 30px;}
+h2{background-color: gray;color: #FFFFFF;text-align: left;text-indent:10px;}
+textarea{width:95%;height:175px;margin: 0 auto;display: block;}
+.performer{position: relative; margin:8px 0 10px 20px;}
+.performer--img,.performer--name,.performer--tweet{position: absolute;}
+.performer--img{top:0;left:0;}
+.performer--name{top:7;left:100;display:block;font-size:20pt;}
+.performer--tweet{top:50;left:100;color:rgb(192,192,192);font-size:15pt;}
+.cancel-button, .tweet-button{height: 50px;width: 150px;border-radius: 5px;border: solid 2px rgb(255,255,255);color: #FFFFFF;font-size: 23px;}
+.cancel-button{float:left;margin: 30px 0px 30px 20px;}
+.tweet-button{float:right;margin: 30px 20px 30px 0px;background-color: rgb(0,180,255);}
+#contents{background-color:rgb(250,250,250);}
